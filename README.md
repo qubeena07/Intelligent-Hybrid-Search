@@ -15,11 +15,8 @@ Built for *CSC-785-U18 Information Retrieval*.
 
 ## Application UI
 
-![Hybrid IR UI](images/UI.png)
+![Hybrid IR UI](images/UI1.png)
 
-## Demo
-
-![Hybrid IR Demo](images/UI_demo.gif)
 
 ---
 
@@ -38,8 +35,9 @@ hybrid_ir_wikipedia/
 ├── OPTIMIZATION_GUIDE.md   # Notes on performance optimizations
 ├── PERFORMANCE_FIXES.md    # Record of performance fixes applied
 └── images/
-    ├── UI.png
-    └── UI_demo.gif
+    ├── UI1.png
+    └── UI2.png
+    └── U3.png
 ```
 
 ---
