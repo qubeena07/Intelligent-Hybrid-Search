@@ -11,7 +11,6 @@ It combines:
 - **Baselines**: BM25-only and Dense-only modes
 - **Wikipedia ↔ Grokipedia** links: compare human-edited vs AI-generated articles side by side
 
-Built for *CSC-785-U18 Information Retrieval*.
 
 ## Application UI
 
