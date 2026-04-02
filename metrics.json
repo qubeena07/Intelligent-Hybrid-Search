@@ -1,0 +1,1152 @@
+{
+  "query_level": {
+    "When was the Eiffel Tower constructed and by whom": {
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.39402485180721275,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4933965394160924,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.330639228452749,
+        "Recall@10": 1.0,
+        "MRR@10": 0.14285714285714285
+      }
+    },
+    "What country did Marie Curie emigrate from to study in Paris": {
+      "bm25_only": {
+        "nDCG@10": 0.6550972241386397,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.6758840844016503,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4711759207898419,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5204370438439433,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      }
+    },
+    "Year the Berlin Wall fell": {
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.8952678494087298,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.631251450669265,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.42011352412242214,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      }
+    },
+    "Capital city of Australia": {
+      "bm25_only": {
+        "nDCG@10": 0.9662746248661424,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.83605642679017,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7649374646675029,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6992501537342649,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "First human landing on the Moon mission name": {
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "What language is spoken in Brazil": {
+      "bm25_only": {
+        "nDCG@10": 0.8193204570491165,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9819729381369342,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.959847482135493,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9340617373195641,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Height of Mount Everest in metres": {
+      "bm25_only": {
+        "nDCG@10": 0.6590018048024133,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.9038170135050866,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8531702545925937,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9956879749912128,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Who invented the telephone Alexander Graham Bell": {
+      "bm25_only": {
+        "nDCG@10": 0.9033866138464669,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9766997172449077,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9772921021945298,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9595070041727891,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Treaty that ended World War One": {
+      "bm25_only": {
+        "nDCG@10": 0.4227898344066503,
+        "Recall@10": 1.0,
+        "MRR@10": 0.16666666666666666
+      },
+      "dense_only": {
+        "nDCG@10": 0.8754444774833748,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5645513700635301,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5681478116967481,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Population of Tokyo metropolitan area": {
+      "bm25_only": {
+        "nDCG@10": 0.9943962916053685,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.34682498962181657,
+        "Recall@10": 1.0,
+        "MRR@10": 0.16666666666666666
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9392401853412087,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9330936887693428,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Year Charles Darwin published On the Origin of Species": {
+      "bm25_only": {
+        "nDCG@10": 0.4555133403129166,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      },
+      "dense_only": {
+        "nDCG@10": 0.6881195967219802,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5847876649948583,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5711601337364735,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Which ocean is the deepest Mariana Trench location": {
+      "bm25_only": {
+        "nDCG@10": 0.6307144878079468,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7573774024839733,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8400188932069889,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.828730156963252,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Founder of the Microsoft Corporation": {
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7108844341837509,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7000516944651791,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6663312458715583,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      }
+    },
+    "What element has atomic number 79": {
+      "bm25_only": {
+        "nDCG@10": 0.9655176169806102,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9520896899080846,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9548073730884988,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9295355807601002,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Year the Soviet Union dissolved": {
+      "bm25_only": {
+        "nDCG@10": 0.8772153153380493,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9223260797603763,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8065735963827293,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7903864795495061,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "How does the human immune system recognise pathogens": {
+      "bm25_only": {
+        "nDCG@10": 0.9596539576780331,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7094472026641538,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9595460215969996,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8016472493003257,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Why did the Roman Empire decline and fall": {
+      "bm25_only": {
+        "nDCG@10": 0.5012658353418871,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "dense_only": {
+        "nDCG@10": 0.9963488021549354,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9538469539548478,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8014787115756214,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "How does CRISPR gene editing technology work": {
+      "bm25_only": {
+        "nDCG@10": 0.5112209029332552,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "dense_only": {
+        "nDCG@10": 0.6817776417968212,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8493744142893871,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8218327725870616,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "What causes the northern lights aurora borealis": {
+      "bm25_only": {
+        "nDCG@10": 0.44272256972879825,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "dense_only": {
+        "nDCG@10": 0.5647020798185569,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.872193932344112,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8192677457040867,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "How did the Industrial Revolution change labour conditions": {
+      "bm25_only": {
+        "nDCG@10": 0.8842221264874298,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.951180602283456,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9322447939063515,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8978715960024524,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Why is the sky blue Rayleigh scattering explanation": {
+      "bm25_only": {
+        "nDCG@10": 0.6309297535714574,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.9197207891481876,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8503449055347546,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8503449055347546,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "How do vaccines produce immunity in the human body": {
+      "bm25_only": {
+        "nDCG@10": 0.5296052411645183,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.6921327635644973,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.58688267143572,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6340133055126963,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "What caused the 2008 global financial crisis": {
+      "bm25_only": {
+        "nDCG@10": 0.37654115384878006,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9005687248376789,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6251207198387084,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      }
+    },
+    "How does natural selection drive speciation": {
+      "bm25_only": {
+        "nDCG@10": 0.6821597128635729,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.5723515034660515,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5900296203971857,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5725514487494309,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      }
+    },
+    "Why do tectonic plates move continental drift mechanism": {
+      "bm25_only": {
+        "nDCG@10": 0.38820118200817755,
+        "Recall@10": 1.0,
+        "MRR@10": 0.16666666666666666
+      },
+      "dense_only": {
+        "nDCG@10": 0.4792350074047672,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4387470367106921,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5901829092648889,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      }
+    },
+    "How does the internet route data packets": {
+      "bm25_only": {
+        "nDCG@10": 0.9093183643170806,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7408405998844328,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.795701323519033,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8965508479224735,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "What is the role of mitochondria in cellular respiration": {
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.45560514958746035,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5109559939712153,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      }
+    },
+    "How did the printing press change the spread of information": {
+      "bm25_only": {
+        "nDCG@10": 0.7529716549381369,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.6849552388941378,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6899398336496163,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8476093277417958,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Why does the Moon cause ocean tides gravitational pull": {
+      "bm25_only": {
+        "nDCG@10": 0.5142469300368734,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7359748470635225,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6968778680746041,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7834905968281628,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "How do black holes form from collapsing stars": {
+      "bm25_only": {
+        "nDCG@10": 0.9356199105240601,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.871480073361127,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9598467368317016,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9656238429414544,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "bank": {
+      "bm25_only": {
+        "nDCG@10": 0.9450897888998828,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9195341461353268,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9531948543787488,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9476058991795404,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "python": {
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      }
+    },
+    "mercury": {
+      "bm25_only": {
+        "nDCG@10": 0.6309297535714574,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "crane": {
+      "bm25_only": {
+        "nDCG@10": 0.9871451602176229,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9733360964168419,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9690945337173088,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "java": {
+      "bm25_only": {
+        "nDCG@10": 0.9182838295399681,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.68349402851663,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9138349931596398,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9180719502706124,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "plate": {
+      "bm25_only": {
+        "nDCG@10": 0.9128781396400242,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.8714509482376813,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9514426589871553,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8145672023038535,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "falcon": {
+      "bm25_only": {
+        "nDCG@10": 0.924133208028394,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7928654229965443,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.809085818206571,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8912031894106293,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "cell": {
+      "bm25_only": {
+        "nDCG@10": 0.9665791231647176,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.9166604408912489,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.923746200905044,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.923746200905044,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Amazon": {
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.5109559939712154,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5109559939712154,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "corona": {
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.38685280723454163,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.38685280723454163,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2
+      }
+    },
+    "Byzantine fault tolerance distributed systems": {
+      "bm25_only": {
+        "nDCG@10": 0.6934264036172708,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "dense_only": {
+        "nDCG@10": 0.5998148292164573,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5208427674883315,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.41311732856427996,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      }
+    },
+    "Krebs cycle mechanism citric acid intermediates": {
+      "bm25_only": {
+        "nDCG@10": 0.5886694116283056,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      },
+      "dense_only": {
+        "nDCG@10": 0.5606189096723732,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7442204150165781,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9244847708763151,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "transformer self-attention mechanism natural language processing": {
+      "bm25_only": {
+        "nDCG@10": 0.9066276098484507,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.5656816783850995,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6824490426820656,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7139363109518626,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Hamming distance error correcting codes binary": {
+      "bm25_only": {
+        "nDCG@10": 0.9871451602176229,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7840733739527099,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9060984870646369,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7699968646023968,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "mRNA splicing spliceosome intron exon processing": {
+      "bm25_only": {
+        "nDCG@10": 0.3562071871080222,
+        "Recall@10": 1.0,
+        "MRR@10": 0.16666666666666666
+      },
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5044890952626143,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5536002502110464,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333
+      }
+    },
+    "Fourier transform signal decomposition frequency domain": {
+      "bm25_only": {
+        "nDCG@10": 0.9716883937998981,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.6589072019378878,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.935386098511369,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9590827728308595,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "PageRank algorithm link analysis web graph": {
+      "bm25_only": {
+        "nDCG@10": 0.7928654229965443,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.6624382296872457,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8101092681430522,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8430983339078816,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "Nash equilibrium game theory mixed strategy": {
+      "bm25_only": {
+        "nDCG@10": 0.5626966339007392,
+        "Recall@10": 1.0,
+        "MRR@10": 0.25
+      },
+      "dense_only": {
+        "nDCG@10": 0.7778671768025934,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7895856383103109,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7474427036679173,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "renormalization group quantum field theory divergence": {
+      "bm25_only": {
+        "nDCG@10": 0.8798540966214204,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.7106752765782569,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7247516925919817,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.757273021239687,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    },
+    "apoptosis caspase cascade programmed cell death pathway": {
+      "bm25_only": {
+        "nDCG@10": 0.9398607903816497,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "dense_only": {
+        "nDCG@10": 0.8985171390829632,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9573668333558618,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9738355749567256,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0
+      }
+    }
+  },
+  "method_summary": {
+    "bm25_only": {
+      "nDCG@10": 0.6866397403955676,
+      "Recall@10": 0.9,
+      "MRR@10": 0.679
+    },
+    "dense_only": {
+      "nDCG@10": 0.7177219329722878,
+      "Recall@10": 0.94,
+      "MRR@10": 0.7496666666666667
+    },
+    "hybrid_weighted_sum": {
+      "nDCG@10": 0.7625190316949754,
+      "Recall@10": 0.98,
+      "MRR@10": 0.7989999999999999
+    },
+    "hybrid_rrf": {
+      "nDCG@10": 0.7612335491663669,
+      "Recall@10": 0.98,
+      "MRR@10": 0.8375238095238094
+    }
+  },
+  "query_type_breakdown": {
+    "factual": {
+      "bm25_only": 0.6899485074102879,
+      "dense_only": 0.7944526367638698,
+      "hybrid_weighted_sum": 0.7694067994672208,
+      "hybrid_rrf": 0.7431387842655951
+    },
+    "conceptual": {
+      "bm25_only": 0.6679119530294708,
+      "dense_only": 0.7370501534061406,
+      "hybrid_weighted_sum": 0.7724733887369267,
+      "hybrid_rrf": 0.7605057319669276
+    },
+    "ambiguous": {
+      "bm25_only": 0.6285039003062067,
+      "dense_only": 0.6694960980748647,
+      "hybrid_weighted_sum": 0.7422449423259758,
+      "hybrid_rrf": 0.785114178302153
+    },
+    "technical": {
+      "bm25_only": 0.7679041110119924,
+      "dense_only": 0.6218593815315587,
+      "hybrid_weighted_sum": 0.7575299338426802,
+      "hybrid_rrf": 0.7655867931808972
+    }
+  }
+}

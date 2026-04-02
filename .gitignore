@@ -12,3 +12,5 @@ venv/
 
 # Streamlit cache
 .streamlit/
+
+.venv/
