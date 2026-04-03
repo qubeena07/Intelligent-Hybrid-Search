@@ -1,26 +1,13 @@
-cd "/Users/dipikaranabhat/Documents/Documents - Dipika's MacBook Pro/academic-projects/hybrid_ir_wikipedia"
-python3 -c "
-import glob, os
-f = glob.glob(os.path.expanduser('~/Documents/*/academic-projects/hybrid_ir_wikipedia/README.md'))[0]
-with open(f) as fp:
-    content = fp.read()
-header = '''---
+---
 title: Hybrid IR Wikipedia
 emoji: 🔍
 colorFrom: blue
 colorTo: green
 sdk: streamlit
-sdk_version: \"1.32.0\"
+sdk_version: "1.32.0"
 app_file: app.py
 pinned: false
 ---
-
-'''
-with open(f, 'w') as fp:
-    fp.write(header + content)
-print('Done')
-"
-
 
 # Hybrid Information Retrieval System (Wikipedia)
 
