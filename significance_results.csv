@@ -1,0 +1,60 @@
+# Per-query nDCG@10 scores
+query,bm25_only,dense_only,hybrid_weighted_sum,hybrid_rrf
+Amazon,0.000000,0.510956,0.510956,1.000000
+Byzantine fault tolerance distributed systems,0.693426,0.599815,0.520843,0.413117
+Capital city of Australia,0.966275,0.836056,0.764937,0.699250
+First human landing on the Moon mission name,1.000000,1.000000,1.000000,1.000000
+Founder of the Microsoft Corporation,0.000000,0.710884,0.700052,0.666331
+Fourier transform signal decomposition frequency domain,0.971688,0.658907,0.935386,0.959083
+Hamming distance error correcting codes binary,0.987145,0.784073,0.906098,0.769997
+Height of Mount Everest in metres,0.659002,0.903817,0.853170,0.995688
+How did the Industrial Revolution change labour conditions,0.884222,0.951181,0.932245,0.897872
+How did the printing press change the spread of information,0.752972,0.684955,0.689940,0.847609
+How do black holes form from collapsing stars,0.935620,0.871480,0.959847,0.965624
+How do vaccines produce immunity in the human body,0.529605,0.692133,0.586883,0.634013
+How does CRISPR gene editing technology work,0.511221,0.681778,0.849374,0.821833
+How does natural selection drive speciation,0.682160,0.572352,0.590030,0.572551
+How does the human immune system recognise pathogens,0.959654,0.709447,0.959546,0.801647
+How does the internet route data packets,0.909318,0.740841,0.795701,0.896551
+Krebs cycle mechanism citric acid intermediates,0.588669,0.560619,0.744220,0.924485
+Nash equilibrium game theory mixed strategy,0.562697,0.777867,0.789586,0.747443
+PageRank algorithm link analysis web graph,0.792865,0.662438,0.810109,0.843098
+Population of Tokyo metropolitan area,0.994396,0.346825,0.939240,0.933094
+Treaty that ended World War One,0.422790,0.875444,0.564551,0.568148
+What caused the 2008 global financial crisis,0.376541,1.000000,0.900569,0.625121
+What causes the northern lights aurora borealis,0.442723,0.564702,0.872194,0.819268
+What country did Marie Curie emigrate from to study in Paris,0.655097,0.675884,0.471176,0.520437
+What element has atomic number 79,0.965518,0.952090,0.954807,0.929536
+What is the role of mitochondria in cellular respiration,1.000000,0.455605,0.510956,0.500000
+What language is spoken in Brazil,0.819320,0.981973,0.959847,0.934062
+When was the Eiffel Tower constructed and by whom,0.000000,0.394025,0.493397,0.330639
+Which ocean is the deepest Mariana Trench location,0.630714,0.757377,0.840019,0.828730
+Who invented the telephone Alexander Graham Bell,0.903387,0.976700,0.977292,0.959507
+Why did the Roman Empire decline and fall,0.501266,0.996349,0.953847,0.801479
+Why do tectonic plates move continental drift mechanism,0.388201,0.479235,0.438747,0.590183
+Why does the Moon cause ocean tides gravitational pull,0.514247,0.735975,0.696878,0.783491
+Why is the sky blue Rayleigh scattering explanation,0.630930,0.919721,0.850345,0.850345
+Year Charles Darwin published On the Origin of Species,0.455513,0.688120,0.584788,0.571160
+Year the Berlin Wall fell,1.000000,0.895268,0.631251,0.420114
+Year the Soviet Union dissolved,0.877215,0.922326,0.806574,0.790386
+apoptosis caspase cascade programmed cell death pathway,0.939861,0.898517,0.957367,0.973836
+bank,0.945090,0.919534,0.953195,0.947606
+cell,0.966579,0.916660,0.923746,0.923746
+corona,0.000000,1.000000,0.386853,0.386853
+crane,0.987145,1.000000,0.973336,0.969095
+falcon,0.924133,0.792865,0.809086,0.891203
+java,0.918284,0.683494,0.913835,0.918072
+mRNA splicing spliceosome intron exon processing,0.356207,0.000000,0.504489,0.553600
+mercury,0.630930,0.000000,1.000000,1.000000
+plate,0.912878,0.871451,0.951443,0.814567
+python,0.000000,0.000000,0.000000,0.000000
+renormalization group quantum field theory divergence,0.879854,0.710675,0.724752,0.757273
+transformer self-attention mechanism natural language processing,0.906628,0.565682,0.682449,0.713936
+
+# Statistical test p-values
+comparison,method_a,method_b,wilcoxon_p,ttest_p,significant
+Hybrid-RRF vs BM25,hybrid_rrf,bm25_only,0.050113,0.052200,No
+Hybrid-RRF vs Dense,hybrid_rrf,dense_only,0.290774,0.244073,No
+Hybrid-WS vs BM25,hybrid_weighted_sum,bm25_only,0.053826,0.027026,Borderline
+Hybrid-WS vs Dense,hybrid_weighted_sum,dense_only,0.227676,0.175426,No
+Dense vs BM25,dense_only,bm25_only,0.742753,0.490706,No

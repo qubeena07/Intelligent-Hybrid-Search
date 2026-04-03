@@ -11,6 +11,8 @@ pinned: false
 
 # Hybrid Information Retrieval System (Wikipedia)
 
+[![Live Demo](https://img.shields.io/badge/🤗%20HuggingFace-Live%20Demo-blue)](https://huggingface.co/spaces/Dipika07/Hybrid-IR)
+
 Streamlit application for **hybrid information retrieval** over a Wikipedia corpus.
 
 It combines:

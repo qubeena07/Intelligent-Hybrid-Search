@@ -276,7 +276,7 @@ def run_evaluation():
         print(f"      ✓ Loaded {len(documents)} documents\n")
     
     except Exception as e:
-        print(f"      ⚠️  Could not load Wikipedia dataset: {e}")
+        print(f"     Could not load Wikipedia dataset: {e}")
         print("      Using fallback corpus...\n")
         
         documents = [
@@ -293,16 +293,16 @@ def run_evaluation():
     # BM25
     tokenized_docs = [doc.split() for doc in documents]
     bm25 = BM25Okapi(tokenized_docs)
-    print("      ✓ BM25Okapi initialized")
+    print("      BM25Okapi initialized")
     
     # SentenceTransformer
     dense_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-    print("      ✓ SentenceTransformer loaded")
+    print("      SentenceTransformer loaded")
     
     # Encode documents
     print("      Encoding documents to embeddings...")
     embeddings = dense_model.encode(documents, convert_to_tensor=True, show_progress_bar=True)
-    print("      ✓ Embeddings computed\n")
+    print("       Embeddings computed\n")
     
     # ---- STEP 3: Run retrieval for all queries and methods ----
     print("[3/5] Running retrieval for all queries and methods...")
@@ -361,7 +361,7 @@ def run_evaluation():
         writer.writeheader()
         writer.writerows(retrieval_results)
     
-    print(f"      ✓ Saved {len(retrieval_results)} rows to '{results_csv}'\n")
+    print(f"       Saved {len(retrieval_results)} rows to '{results_csv}'\n")
     
     # ---- STEP 5: Auto-annotate with tiered relevance and update results ----
     print("[5/5] Auto-annotating with tiered relevance...")
@@ -392,7 +392,7 @@ def run_evaluation():
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(retrieval_results)
-    print(f"      ✓ Updated '{results_csv}' with relevance_type column")
+    print(f"       Updated '{results_csv}' with relevance_type column")
 
     # Build and save relevance_template.csv with tiered scores
     qd_map = {}  # (query, doc_title) -> max tier seen across methods
@@ -411,15 +411,15 @@ def run_evaluation():
     tier_counts = {0: 0, 1: 0, 2: 0}
     for v in qd_map.values():
         tier_counts[v] += 1
-    print(f"      ✓ Created '{relevance_csv}'")
-    print(f"      ✓ {len(qd_map)} pairs: {tier_counts[2]} relevant (2), "
+    print(f"       Created '{relevance_csv}'")
+    print(f"       {len(qd_map)} pairs: {tier_counts[2]} relevant (2), "
           f"{tier_counts[1]} partial (1), {tier_counts[0]} not_relevant (0)\n")
     
     # Final summary
     print("=" * 80)
     print("RETRIEVAL COMPLETE ✓")
     print("=" * 80)
-    print("\n📋 NEXT STEPS:")
+    print("\n NEXT STEPS:")
     print(f"""
   1. Open '{relevance_csv}' in a spreadsheet editor (Excel/Google Sheets)
   
@@ -481,7 +481,7 @@ def compute_metrics_from_annotations(
                 try:
                     rel = int(rel_str)
                     if rel not in [0, 1, 2]:
-                        print(f"      ⚠️  Invalid value for ({query}, {doc_title}): {rel} (must be 0, 1, or 2)")
+                        print(f"        Invalid value for ({query}, {doc_title}): {rel} (must be 0, 1, or 2)")
                         continue
                     
                     if query not in relevance_dict:
@@ -491,19 +491,19 @@ def compute_metrics_from_annotations(
                     num_annotations += 1
                 
                 except ValueError:
-                    print(f"      ⚠️  Non-integer value for ({query}, {doc_title}): '{rel_str}'")
+                    print(f"        Non-integer value for ({query}, {doc_title}): '{rel_str}'")
     
     except FileNotFoundError:
-        print(f"      ❌ File not found: {relevance_csv}")
+        print(f"       File not found: {relevance_csv}")
         print(f"      Run 'python evaluate.py' first to generate the annotation template.")
         return
     
     if num_annotations == 0:
-        print(f"      ❌ No annotations found in {relevance_csv}")
+        print(f"       No annotations found in {relevance_csv}")
         print(f"      Please fill in the 'relevant' column (0=not relevant, 1=partial, 2=relevant) for each row.")
         return
     
-    print(f"      ✓ Loaded {num_annotations} relevance judgments\n")
+    print(f"       Loaded {num_annotations} relevance judgments\n")
     
     # ---- STEP 2: Load retrieval results ----
     print(f"[2/3] Loading retrieval results from '{results_csv}'...")
@@ -515,10 +515,10 @@ def compute_metrics_from_annotations(
             retrieval_data = list(reader)
     
     except FileNotFoundError:
-        print(f"      ❌ File not found: {results_csv}")
+        print(f"       File not found: {results_csv}")
         return
     
-    print(f"      ✓ Loaded {len(retrieval_data)} retrieval records\n")
+    print(f"       Loaded {len(retrieval_data)} retrieval records\n")
     
     # ---- STEP 3: Compute metrics ----
     print("[3/3] Computing metrics (nDCG@10, Recall@10, MRR@10)...")
@@ -637,7 +637,7 @@ def compute_metrics_from_annotations(
         writer = csv.writer(f)
         writer.writerow(["query_type", "bm25_only", "dense_only", "hybrid_weighted_sum", "hybrid_rrf"])
         writer.writerows(breakdown_rows)
-    print(f"✓ Query-type breakdown saved to '{breakdown_csv}'\n")
+    print(f" Query-type breakdown saved to '{breakdown_csv}'\n")
 
     # ---- STEP 3c: Relevance-type breakdown for top-1 results ----
     print("TOP-1 RESULT RELEVANCE-TYPE BREAKDOWN (% of queries)")
@@ -688,7 +688,7 @@ def compute_metrics_from_annotations(
     with open(metrics_json, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2)
     
-    print(f"✓ Detailed metrics saved to '{metrics_json}'")
+    print(f" Detailed metrics saved to '{metrics_json}'")
     
     # Text summary
     summary_txt = "metrics_summary.txt"
@@ -715,6 +715,8 @@ def compute_metrics_from_annotations(
     
     print(f"✓ Summary saved to '{summary_txt}'")
     print("\n" + "=" * 80)
+
+    run_significance_tests(results_csv)
 
 def analyze_query_expansion_impact():
     results = []
@@ -752,6 +754,128 @@ def analyze_query_expansion_impact():
     print(df.nsmallest(3, "delta")[["query","expanded_query","delta"]])
     
     df.to_csv("query_expansion_impact.csv", index=False)
+
+
+
+# ============================================================================
+# STATISTICAL SIGNIFICANCE TESTING
+# ============================================================================
+def run_significance_tests(results_csv: str = "retrieval_results.csv"):
+    from scipy import stats as sp_stats
+
+    print("\n" + "=" * 80)
+    print("STATISTICAL SIGNIFICANCE TESTS (nDCG@10)")
+    print("=" * 80 + "\n")
+
+    relevance_dict = {}
+    try:
+        with open("relevance_template.csv", "r", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                rel_str = row["relevant"].strip()
+                if rel_str == "":
+                    continue
+                try:
+                    rel = int(rel_str)
+                except ValueError:
+                    continue
+                query = row["query"]
+                if query not in relevance_dict:
+                    relevance_dict[query] = {}
+                relevance_dict[query][row["doc_title"]] = rel
+    except FileNotFoundError:
+        print("   relevance_template.csv not found — run evaluate.py --metrics first.")
+        return
+
+    try:
+        with open(results_csv, "r", encoding="utf-8") as f:
+            retrieval_data = list(csv.DictReader(f))
+    except FileNotFoundError:
+        print(f"   {results_csv} not found — run evaluate.py first.")
+        return
+
+    method_names = ["bm25_only", "dense_only", "hybrid_weighted_sum", "hybrid_rrf"]
+    queries = sorted(relevance_dict.keys())
+    method_scores: Dict[str, Dict[str, float]] = {}
+
+    for method in method_names:
+        method_scores[method] = {}
+        for query in queries:
+            method_results = sorted(
+                [r for r in retrieval_data if r["query"] == query and r["method"] == method],
+                key=lambda x: int(x["rank"])
+            )
+            relevances = [relevance_dict[query].get(r["doc_title"], 0) for r in method_results]
+            method_scores[method][query] = compute_ndcg(relevances, k=10)
+
+    comparisons = [
+        ("Hybrid-RRF vs BM25",  "hybrid_rrf",           "bm25_only"),
+        ("Hybrid-RRF vs Dense", "hybrid_rrf",            "dense_only"),
+        ("Hybrid-WS vs BM25",   "hybrid_weighted_sum",   "bm25_only"),
+        ("Hybrid-WS vs Dense",  "hybrid_weighted_sum",   "dense_only"),
+        ("Dense vs BM25",       "dense_only",            "bm25_only"),
+    ]
+
+    results_rows = []
+    ALPHA = 0.05
+
+    for label, m1, m2 in comparisons:
+        scores1 = np.array([method_scores[m1][q] for q in queries])
+        scores2 = np.array([method_scores[m2][q] for q in queries])
+        diffs = scores1 - scores2
+        if np.all(diffs == 0):
+            w_p = 1.0
+        else:
+            _, w_p = sp_stats.wilcoxon(scores1, scores2, alternative="two-sided", zero_method="wilcox")
+        _, t_p = sp_stats.ttest_rel(scores1, scores2)
+        w_sig = w_p < ALPHA
+        t_sig = t_p < ALPHA
+        if w_sig and t_sig:
+            verdict = "Yes*"
+        elif w_sig or t_sig:
+            verdict = "Borderline"
+        else:
+            verdict = "No"
+        results_rows.append({
+            "comparison":  label,
+            "method_a":    m1,
+            "method_b":    m2,
+            "wilcoxon_p":  w_p,
+            "ttest_p":     t_p,
+            "significant": verdict,
+        })
+
+    col_w = [24, 12, 10, 13]
+    header = "{:<{}} | {:>{}} | {:>{}} | {:>{}}".format(
+        "Comparison", col_w[0], "Wilcoxon p", col_w[1],
+        "t-test p",   col_w[2], "Significant?", col_w[3])
+    sep = "-" * (sum(col_w) + 10)
+    print(header)
+    print(sep)
+    for r in results_rows:
+        print("{:<{}} | {:>{}.4f} | {:>{}.4f} | {:>{}}".format(
+            r["comparison"],  col_w[0],
+            r["wilcoxon_p"],  col_w[1],
+            r["ttest_p"],     col_w[2],
+            r["significant"], col_w[3]))
+    print("=" * 80 + "\n")
+
+    sig_csv = "significance_results.csv"
+    with open(sig_csv, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["# Per-query nDCG@10 scores"])
+        writer.writerow(["query"] + method_names)
+        for q in queries:
+            writer.writerow([q] + [f"{method_scores[m][q]:.6f}" for m in method_names])
+        writer.writerow([])
+        writer.writerow(["# Statistical test p-values"])
+        writer.writerow(["comparison", "method_a", "method_b", "wilcoxon_p", "ttest_p", "significant"])
+        for r in results_rows:
+            writer.writerow([r["comparison"], r["method_a"], r["method_b"],
+                             f"{r['wilcoxon_p']:.6f}", f"{r['ttest_p']:.6f}", r["significant"]])
+
+    print(f" Full results saved to '{sig_csv}'")
+    print("=" * 80)
+
 
 # ============================================================================
 # MAIN ENTRY POINT

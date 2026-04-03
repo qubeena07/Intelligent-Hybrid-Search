@@ -1,1152 +1,1972 @@
 {
   "query_level": {
-    "When was the Eiffel Tower constructed and by whom": {
+    "Amazon": {
+      "dense_only": {
+        "nDCG@10": 0.5109559939712154,
+        "Recall@10": 2.0,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 2
+      },
       "bm25_only": {
         "nDCG@10": 0.0,
         "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.39402485180721275,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
+        "MRR@10": 0.0,
+        "num_relevant": 2
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.4933965394160924,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
+        "nDCG@10": 0.5109559939712154,
+        "Recall@10": 2.0,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 2
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.330639228452749,
-        "Recall@10": 1.0,
-        "MRR@10": 0.14285714285714285
-      }
-    },
-    "What country did Marie Curie emigrate from to study in Paris": {
-      "bm25_only": {
-        "nDCG@10": 0.6550972241386397,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.6758840844016503,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.4711759207898419,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5204370438439433,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      }
-    },
-    "Year the Berlin Wall fell": {
-      "bm25_only": {
         "nDCG@10": 1.0,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
+        "MRR@10": 1.0,
+        "num_relevant": 2
+      }
+    },
+    "Byzantine fault tolerance distributed systems": {
       "dense_only": {
-        "nDCG@10": 0.8952678494087298,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.5998148292164573,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 0.5,
+        "num_relevant": 6
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6934264036172708,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 0.5,
+        "num_relevant": 6
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.631251450669265,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.5208427674883315,
+        "Recall@10": 0.8333333333333334,
+        "MRR@10": 0.25,
+        "num_relevant": 6
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.42011352412242214,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
+        "nDCG@10": 0.41311732856427996,
+        "Recall@10": 0.5,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 6
       }
     },
     "Capital city of Australia": {
-      "bm25_only": {
-        "nDCG@10": 0.9662746248661424,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
       "dense_only": {
         "nDCG@10": 0.83605642679017,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.5384615384615384,
+        "MRR@10": 1.0,
+        "num_relevant": 26
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9662746248661424,
+        "Recall@10": 0.38461538461538464,
+        "MRR@10": 1.0,
+        "num_relevant": 26
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 0.7649374646675029,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.46153846153846156,
+        "MRR@10": 1.0,
+        "num_relevant": 26
       },
       "hybrid_rrf": {
         "nDCG@10": 0.6992501537342649,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.46153846153846156,
+        "MRR@10": 1.0,
+        "num_relevant": 26
       }
     },
     "First human landing on the Moon mission name": {
-      "bm25_only": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
       "dense_only": {
         "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.7692307692307693,
+        "MRR@10": 1.0,
+        "num_relevant": 13
+      },
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 0.7692307692307693,
+        "MRR@10": 1.0,
+        "num_relevant": 13
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.7692307692307693,
+        "MRR@10": 1.0,
+        "num_relevant": 13
       },
       "hybrid_rrf": {
         "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "What language is spoken in Brazil": {
-      "bm25_only": {
-        "nDCG@10": 0.8193204570491165,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.9819729381369342,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.959847482135493,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9340617373195641,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Height of Mount Everest in metres": {
-      "bm25_only": {
-        "nDCG@10": 0.6590018048024133,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.9038170135050866,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.8531702545925937,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9956879749912128,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Who invented the telephone Alexander Graham Bell": {
-      "bm25_only": {
-        "nDCG@10": 0.9033866138464669,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.9766997172449077,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9772921021945298,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9595070041727891,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Treaty that ended World War One": {
-      "bm25_only": {
-        "nDCG@10": 0.4227898344066503,
-        "Recall@10": 1.0,
-        "MRR@10": 0.16666666666666666
-      },
-      "dense_only": {
-        "nDCG@10": 0.8754444774833748,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5645513700635301,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5681478116967481,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Population of Tokyo metropolitan area": {
-      "bm25_only": {
-        "nDCG@10": 0.9943962916053685,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.34682498962181657,
-        "Recall@10": 1.0,
-        "MRR@10": 0.16666666666666666
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9392401853412087,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9330936887693428,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Year Charles Darwin published On the Origin of Species": {
-      "bm25_only": {
-        "nDCG@10": 0.4555133403129166,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      },
-      "dense_only": {
-        "nDCG@10": 0.6881195967219802,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5847876649948583,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5711601337364735,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Which ocean is the deepest Mariana Trench location": {
-      "bm25_only": {
-        "nDCG@10": 0.6307144878079468,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.7573774024839733,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.8400188932069889,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.828730156963252,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.7692307692307693,
+        "MRR@10": 1.0,
+        "num_relevant": 13
       }
     },
     "Founder of the Microsoft Corporation": {
-      "bm25_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
       "dense_only": {
         "nDCG@10": 0.7108844341837509,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      },
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 6
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 0.7000516944651791,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 6
       },
       "hybrid_rrf": {
         "nDCG@10": 0.6663312458715583,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 0.5,
+        "num_relevant": 6
       }
     },
-    "What element has atomic number 79": {
-      "bm25_only": {
-        "nDCG@10": 0.9655176169806102,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
+    "Fourier transform signal decomposition frequency domain": {
       "dense_only": {
-        "nDCG@10": 0.9520896899080846,
+        "nDCG@10": 0.6589072019378878,
+        "Recall@10": 0.5,
+        "MRR@10": 0.5,
+        "num_relevant": 10
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9716883937998981,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 10
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.9548073730884988,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.935386098511369,
+        "Recall@10": 1.1,
+        "MRR@10": 1.0,
+        "num_relevant": 10
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.9295355807601002,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Year the Soviet Union dissolved": {
-      "bm25_only": {
-        "nDCG@10": 0.8772153153380493,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.9223260797603763,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.8065735963827293,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.7903864795495061,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "How does the human immune system recognise pathogens": {
-      "bm25_only": {
-        "nDCG@10": 0.9596539576780331,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.7094472026641538,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9595460215969996,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8016472493003257,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Why did the Roman Empire decline and fall": {
-      "bm25_only": {
-        "nDCG@10": 0.5012658353418871,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
-      },
-      "dense_only": {
-        "nDCG@10": 0.9963488021549354,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9538469539548478,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8014787115756214,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "How does CRISPR gene editing technology work": {
-      "bm25_only": {
-        "nDCG@10": 0.5112209029332552,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "dense_only": {
-        "nDCG@10": 0.6817776417968212,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.8493744142893871,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8218327725870616,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "What causes the northern lights aurora borealis": {
-      "bm25_only": {
-        "nDCG@10": 0.44272256972879825,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
-      },
-      "dense_only": {
-        "nDCG@10": 0.5647020798185569,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.872193932344112,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8192677457040867,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "How did the Industrial Revolution change labour conditions": {
-      "bm25_only": {
-        "nDCG@10": 0.8842221264874298,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.951180602283456,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9322447939063515,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8978715960024524,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Why is the sky blue Rayleigh scattering explanation": {
-      "bm25_only": {
-        "nDCG@10": 0.6309297535714574,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.9197207891481876,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.8503449055347546,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8503449055347546,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "How do vaccines produce immunity in the human body": {
-      "bm25_only": {
-        "nDCG@10": 0.5296052411645183,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.6921327635644973,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.58688267143572,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.6340133055126963,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "What caused the 2008 global financial crisis": {
-      "bm25_only": {
-        "nDCG@10": 0.37654115384878006,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "dense_only": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9005687248376789,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.6251207198387084,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      }
-    },
-    "How does natural selection drive speciation": {
-      "bm25_only": {
-        "nDCG@10": 0.6821597128635729,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.5723515034660515,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5900296203971857,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5725514487494309,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      }
-    },
-    "Why do tectonic plates move continental drift mechanism": {
-      "bm25_only": {
-        "nDCG@10": 0.38820118200817755,
-        "Recall@10": 1.0,
-        "MRR@10": 0.16666666666666666
-      },
-      "dense_only": {
-        "nDCG@10": 0.4792350074047672,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.4387470367106921,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5901829092648889,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      }
-    },
-    "How does the internet route data packets": {
-      "bm25_only": {
-        "nDCG@10": 0.9093183643170806,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.7408405998844328,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.795701323519033,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8965508479224735,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "What is the role of mitochondria in cellular respiration": {
-      "bm25_only": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.45560514958746035,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5109559939712153,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.5,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      }
-    },
-    "How did the printing press change the spread of information": {
-      "bm25_only": {
-        "nDCG@10": 0.7529716549381369,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.6849552388941378,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.6899398336496163,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8476093277417958,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Why does the Moon cause ocean tides gravitational pull": {
-      "bm25_only": {
-        "nDCG@10": 0.5142469300368734,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.7359748470635225,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.6968778680746041,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.7834905968281628,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "How do black holes form from collapsing stars": {
-      "bm25_only": {
-        "nDCG@10": 0.9356199105240601,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.871480073361127,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9598467368317016,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9656238429414544,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "bank": {
-      "bm25_only": {
-        "nDCG@10": 0.9450897888998828,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.9195341461353268,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9531948543787488,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9476058991795404,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "python": {
-      "bm25_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      }
-    },
-    "mercury": {
-      "bm25_only": {
-        "nDCG@10": 0.6309297535714574,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "crane": {
-      "bm25_only": {
-        "nDCG@10": 0.9871451602176229,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9733360964168419,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9690945337173088,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "java": {
-      "bm25_only": {
-        "nDCG@10": 0.9182838295399681,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.68349402851663,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9138349931596398,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9180719502706124,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "plate": {
-      "bm25_only": {
-        "nDCG@10": 0.9128781396400242,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.8714509482376813,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.9514426589871553,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8145672023038535,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "falcon": {
-      "bm25_only": {
-        "nDCG@10": 0.924133208028394,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.7928654229965443,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.809085818206571,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.8912031894106293,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "cell": {
-      "bm25_only": {
-        "nDCG@10": 0.9665791231647176,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.9166604408912489,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.923746200905044,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.923746200905044,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "Amazon": {
-      "bm25_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.5109559939712154,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5109559939712154,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "corona": {
-      "bm25_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
-      },
-      "dense_only": {
-        "nDCG@10": 1.0,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.38685280723454163,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.38685280723454163,
-        "Recall@10": 1.0,
-        "MRR@10": 0.2
-      }
-    },
-    "Byzantine fault tolerance distributed systems": {
-      "bm25_only": {
-        "nDCG@10": 0.6934264036172708,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "dense_only": {
-        "nDCG@10": 0.5998148292164573,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.5208427674883315,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.41311732856427996,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      }
-    },
-    "Krebs cycle mechanism citric acid intermediates": {
-      "bm25_only": {
-        "nDCG@10": 0.5886694116283056,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
-      },
-      "dense_only": {
-        "nDCG@10": 0.5606189096723732,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.7442204150165781,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.9244847708763151,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      }
-    },
-    "transformer self-attention mechanism natural language processing": {
-      "bm25_only": {
-        "nDCG@10": 0.9066276098484507,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "dense_only": {
-        "nDCG@10": 0.5656816783850995,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
-      },
-      "hybrid_weighted_sum": {
-        "nDCG@10": 0.6824490426820656,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
-      "hybrid_rrf": {
-        "nDCG@10": 0.7139363109518626,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.9590827728308595,
+        "Recall@10": 0.9,
+        "MRR@10": 1.0,
+        "num_relevant": 10
       }
     },
     "Hamming distance error correcting codes binary": {
-      "bm25_only": {
-        "nDCG@10": 0.9871451602176229,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
       "dense_only": {
         "nDCG@10": 0.7840733739527099,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 1.2857142857142858,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9871451602176229,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 1.0,
+        "num_relevant": 7
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 0.9060984870646369,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 7
       },
       "hybrid_rrf": {
         "nDCG@10": 0.7699968646023968,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 7
       }
     },
-    "mRNA splicing spliceosome intron exon processing": {
-      "bm25_only": {
-        "nDCG@10": 0.3562071871080222,
-        "Recall@10": 1.0,
-        "MRR@10": 0.16666666666666666
-      },
+    "Height of Mount Everest in metres": {
       "dense_only": {
-        "nDCG@10": 0.0,
-        "Recall@10": 0.0,
-        "MRR@10": 0.0
+        "nDCG@10": 0.9038170135050866,
+        "Recall@10": 0.9166666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6590018048024133,
+        "Recall@10": 0.25,
+        "MRR@10": 0.5,
+        "num_relevant": 12
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.5044890952626143,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
+        "nDCG@10": 0.8531702545925937,
+        "Recall@10": 0.5833333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.5536002502110464,
-        "Recall@10": 1.0,
-        "MRR@10": 0.3333333333333333
+        "nDCG@10": 0.9956879749912128,
+        "Recall@10": 0.5833333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       }
     },
-    "Fourier transform signal decomposition frequency domain": {
-      "bm25_only": {
-        "nDCG@10": 0.9716883937998981,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
+    "How did the Industrial Revolution change labour conditions": {
       "dense_only": {
-        "nDCG@10": 0.6589072019378878,
-        "Recall@10": 1.0,
-        "MRR@10": 0.5
+        "nDCG@10": 0.951180602283456,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.8842221264874298,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.935386098511369,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.9322447939063515,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.9590827728308595,
+        "nDCG@10": 0.8978715960024524,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "How did the printing press change the spread of information": {
+      "dense_only": {
+        "nDCG@10": 0.6849552388941378,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 0.7529716549381369,
+        "Recall@10": 0.42857142857142855,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6899398336496163,
+        "Recall@10": 1.2857142857142858,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8476093277417958,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      }
+    },
+    "How do black holes form from collapsing stars": {
+      "dense_only": {
+        "nDCG@10": 0.871480073361127,
+        "Recall@10": 0.6153846153846154,
+        "MRR@10": 1.0,
+        "num_relevant": 13
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9356199105240601,
+        "Recall@10": 0.6923076923076923,
+        "MRR@10": 1.0,
+        "num_relevant": 13
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9598467368317016,
+        "Recall@10": 0.5384615384615384,
+        "MRR@10": 1.0,
+        "num_relevant": 13
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9656238429414544,
+        "Recall@10": 0.5384615384615384,
+        "MRR@10": 1.0,
+        "num_relevant": 13
+      }
+    },
+    "How do vaccines produce immunity in the human body": {
+      "dense_only": {
+        "nDCG@10": 0.6921327635644973,
+        "Recall@10": 0.8333333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5296052411645183,
+        "Recall@10": 0.5,
+        "MRR@10": 0.5,
+        "num_relevant": 6
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.58688267143572,
+        "Recall@10": 0.5,
+        "MRR@10": 0.5,
+        "num_relevant": 6
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6340133055126963,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      }
+    },
+    "How does CRISPR gene editing technology work": {
+      "dense_only": {
+        "nDCG@10": 0.6817776417968212,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5112209029332552,
+        "Recall@10": 0.42857142857142855,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 7
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8493744142893871,
+        "Recall@10": 1.1428571428571428,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8218327725870616,
+        "Recall@10": 1.4285714285714286,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      }
+    },
+    "How does natural selection drive speciation": {
+      "dense_only": {
+        "nDCG@10": 0.5723515034660515,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6821597128635729,
+        "Recall@10": 0.5714285714285714,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5900296203971857,
+        "Recall@10": 0.8571428571428571,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5725514487494309,
+        "Recall@10": 0.8571428571428571,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      }
+    },
+    "How does the human immune system recognise pathogens": {
+      "dense_only": {
+        "nDCG@10": 0.7094472026641538,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 4
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9596539576780331,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 4
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9595460215969996,
+        "Recall@10": 1.25,
+        "MRR@10": 1.0,
+        "num_relevant": 4
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8016472493003257,
+        "Recall@10": 1.25,
+        "MRR@10": 1.0,
+        "num_relevant": 4
+      }
+    },
+    "How does the internet route data packets": {
+      "dense_only": {
+        "nDCG@10": 0.7408405998844328,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9093183643170806,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.795701323519033,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 0.5,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8965508479224735,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "Krebs cycle mechanism citric acid intermediates": {
+      "dense_only": {
+        "nDCG@10": 0.5606189096723732,
+        "Recall@10": 0.5,
+        "MRR@10": 0.5,
+        "num_relevant": 10
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5886694116283056,
+        "Recall@10": 0.7,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 10
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7442204150165781,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5,
+        "num_relevant": 10
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9244847708763151,
+        "Recall@10": 0.9,
+        "MRR@10": 1.0,
+        "num_relevant": 10
+      }
+    },
+    "Nash equilibrium game theory mixed strategy": {
+      "dense_only": {
+        "nDCG@10": 0.7778671768025934,
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5626966339007392,
+        "Recall@10": 0.4375,
+        "MRR@10": 0.25,
+        "num_relevant": 16
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7895856383103109,
+        "Recall@10": 0.5625,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7474427036679173,
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 16
       }
     },
     "PageRank algorithm link analysis web graph": {
-      "bm25_only": {
-        "nDCG@10": 0.7928654229965443,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
       "dense_only": {
         "nDCG@10": 0.6624382296872457,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 8
+      },
+      "bm25_only": {
+        "nDCG@10": 0.7928654229965443,
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 8
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 0.8101092681430522,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.875,
+        "MRR@10": 1.0,
+        "num_relevant": 8
       },
       "hybrid_rrf": {
         "nDCG@10": 0.8430983339078816,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 8
       }
     },
-    "Nash equilibrium game theory mixed strategy": {
-      "bm25_only": {
-        "nDCG@10": 0.5626966339007392,
-        "Recall@10": 1.0,
-        "MRR@10": 0.25
-      },
+    "Population of Tokyo metropolitan area": {
       "dense_only": {
-        "nDCG@10": 0.7778671768025934,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.34682498962181657,
+        "Recall@10": 0.25,
+        "MRR@10": 0.16666666666666666,
+        "num_relevant": 12
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9943962916053685,
+        "Recall@10": 0.8333333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.7895856383103109,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.9392401853412087,
+        "Recall@10": 0.9166666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.7474427036679173,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.9330936887693428,
+        "Recall@10": 0.8333333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       }
     },
-    "renormalization group quantum field theory divergence": {
-      "bm25_only": {
-        "nDCG@10": 0.8798540966214204,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
+    "Treaty that ended World War One": {
       "dense_only": {
-        "nDCG@10": 0.7106752765782569,
+        "nDCG@10": 0.8754444774833748,
         "Recall@10": 1.0,
-        "MRR@10": 0.5
+        "MRR@10": 1.0,
+        "num_relevant": 11
+      },
+      "bm25_only": {
+        "nDCG@10": 0.4227898344066503,
+        "Recall@10": 0.18181818181818182,
+        "MRR@10": 0.16666666666666666,
+        "num_relevant": 11
       },
       "hybrid_weighted_sum": {
-        "nDCG@10": 0.7247516925919817,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "nDCG@10": 0.5645513700635301,
+        "Recall@10": 0.6363636363636364,
+        "MRR@10": 0.5,
+        "num_relevant": 11
       },
       "hybrid_rrf": {
-        "nDCG@10": 0.757273021239687,
+        "nDCG@10": 0.5681478116967481,
+        "Recall@10": 0.45454545454545453,
+        "MRR@10": 1.0,
+        "num_relevant": 11
+      }
+    },
+    "What caused the 2008 global financial crisis": {
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "bm25_only": {
+        "nDCG@10": 0.37654115384878006,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 3
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9005687248376789,
+        "Recall@10": 1.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.6251207198387084,
+        "Recall@10": 1.3333333333333333,
+        "MRR@10": 0.5,
+        "num_relevant": 3
+      }
+    },
+    "What causes the northern lights aurora borealis": {
+      "dense_only": {
+        "nDCG@10": 0.5647020798185569,
+        "Recall@10": 0.5555555555555556,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.44272256972879825,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 0.25,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.872193932344112,
+        "Recall@10": 0.5555555555555556,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8192677457040867,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "What country did Marie Curie emigrate from to study in Paris": {
+      "dense_only": {
+        "nDCG@10": 0.6758840844016503,
+        "Recall@10": 0.4444444444444444,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6550972241386397,
+        "Recall@10": 0.4444444444444444,
+        "MRR@10": 0.5,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4711759207898419,
+        "Recall@10": 0.4444444444444444,
+        "MRR@10": 0.5,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5204370438439433,
+        "Recall@10": 0.4444444444444444,
+        "MRR@10": 0.2,
+        "num_relevant": 9
+      }
+    },
+    "What element has atomic number 79": {
+      "dense_only": {
+        "nDCG@10": 0.9520896899080846,
+        "Recall@10": 0.8125,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9655176169806102,
+        "Recall@10": 0.875,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9548073730884988,
+        "Recall@10": 0.8125,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9295355807601002,
+        "Recall@10": 0.875,
+        "MRR@10": 1.0,
+        "num_relevant": 16
+      }
+    },
+    "What is the role of mitochondria in cellular respiration": {
+      "dense_only": {
+        "nDCG@10": 0.45560514958746035,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2,
+        "num_relevant": 2
+      },
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 0.5,
+        "MRR@10": 1.0,
+        "num_relevant": 2
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5109559939712153,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 2
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 2
+      }
+    },
+    "What language is spoken in Brazil": {
+      "dense_only": {
+        "nDCG@10": 0.9819729381369342,
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 24
+      },
+      "bm25_only": {
+        "nDCG@10": 0.8193204570491165,
+        "Recall@10": 0.5833333333333334,
+        "MRR@10": 1.0,
+        "num_relevant": 24
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.959847482135493,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 24
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9340617373195641,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 24
+      }
+    },
+    "When was the Eiffel Tower constructed and by whom": {
+      "dense_only": {
+        "nDCG@10": 0.39402485180721275,
+        "Recall@10": 1.5,
+        "MRR@10": 0.25,
+        "num_relevant": 2
+      },
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 2
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4933965394160924,
+        "Recall@10": 1.5,
+        "MRR@10": 0.5,
+        "num_relevant": 2
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.330639228452749,
+        "Recall@10": 1.5,
+        "MRR@10": 0.14285714285714285,
+        "num_relevant": 2
+      }
+    },
+    "Which ocean is the deepest Mariana Trench location": {
+      "dense_only": {
+        "nDCG@10": 0.7573774024839733,
+        "Recall@10": 0.8888888888888888,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6307144878079468,
+        "Recall@10": 0.5555555555555556,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8400188932069889,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.828730156963252,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "Who invented the telephone Alexander Graham Bell": {
+      "dense_only": {
+        "nDCG@10": 0.9766997172449077,
+        "Recall@10": 1.0714285714285714,
+        "MRR@10": 1.0,
+        "num_relevant": 14
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9033866138464669,
+        "Recall@10": 0.6428571428571429,
+        "MRR@10": 1.0,
+        "num_relevant": 14
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9772921021945298,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 1.0,
+        "num_relevant": 14
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9595070041727891,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 1.0,
+        "num_relevant": 14
+      }
+    },
+    "Why did the Roman Empire decline and fall": {
+      "dense_only": {
+        "nDCG@10": 0.9963488021549354,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5012658353418871,
+        "Recall@10": 0.16666666666666666,
+        "MRR@10": 0.25,
+        "num_relevant": 12
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9538469539548478,
+        "Recall@10": 0.5,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8014787115756214,
+        "Recall@10": 0.5,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      }
+    },
+    "Why do tectonic plates move continental drift mechanism": {
+      "dense_only": {
+        "nDCG@10": 0.4792350074047672,
+        "Recall@10": 1.0,
+        "MRR@10": 0.2,
+        "num_relevant": 6
+      },
+      "bm25_only": {
+        "nDCG@10": 0.38820118200817755,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 0.16666666666666666,
+        "num_relevant": 6
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.4387470367106921,
+        "Recall@10": 0.5,
+        "MRR@10": 0.25,
+        "num_relevant": 6
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5901829092648889,
+        "Recall@10": 0.8333333333333334,
+        "MRR@10": 0.5,
+        "num_relevant": 6
+      }
+    },
+    "Why does the Moon cause ocean tides gravitational pull": {
+      "dense_only": {
+        "nDCG@10": 0.7359748470635225,
+        "Recall@10": 1.2222222222222223,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.5142469300368734,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6968778680746041,
+        "Recall@10": 0.5555555555555556,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7834905968281628,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "Why is the sky blue Rayleigh scattering explanation": {
+      "dense_only": {
+        "nDCG@10": 0.9197207891481876,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 2
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6309297535714574,
+        "Recall@10": 1.0,
+        "MRR@10": 0.5,
+        "num_relevant": 2
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8503449055347546,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 2
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8503449055347546,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 2
+      }
+    },
+    "Year Charles Darwin published On the Origin of Species": {
+      "dense_only": {
+        "nDCG@10": 0.6881195967219802,
+        "Recall@10": 0.45454545454545453,
+        "MRR@10": 0.5,
+        "num_relevant": 11
+      },
+      "bm25_only": {
+        "nDCG@10": 0.4555133403129166,
+        "Recall@10": 0.45454545454545453,
+        "MRR@10": 0.2,
+        "num_relevant": 11
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5847876649948583,
+        "Recall@10": 0.2727272727272727,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 11
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5711601337364735,
+        "Recall@10": 0.45454545454545453,
+        "MRR@10": 1.0,
+        "num_relevant": 11
+      }
+    },
+    "Year the Berlin Wall fell": {
+      "dense_only": {
+        "nDCG@10": 0.8952678494087298,
+        "Recall@10": 1.5714285714285714,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 0.14285714285714285,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.631251450669265,
+        "Recall@10": 0.42857142857142855,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.42011352412242214,
+        "Recall@10": 0.5714285714285714,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 7
+      }
+    },
+    "Year the Soviet Union dissolved": {
+      "dense_only": {
+        "nDCG@10": 0.9223260797603763,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      },
+      "bm25_only": {
+        "nDCG@10": 0.8772153153380493,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.8065735963827293,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 6
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7903864795495061,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 6
       }
     },
     "apoptosis caspase cascade programmed cell death pathway": {
-      "bm25_only": {
-        "nDCG@10": 0.9398607903816497,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
-      },
       "dense_only": {
         "nDCG@10": 0.8985171390829632,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.9166666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9398607903816497,
+        "Recall@10": 0.5,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       },
       "hybrid_weighted_sum": {
         "nDCG@10": 0.9573668333558618,
-        "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 12
       },
       "hybrid_rrf": {
         "nDCG@10": 0.9738355749567256,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      }
+    },
+    "bank": {
+      "dense_only": {
+        "nDCG@10": 0.9195341461353268,
         "Recall@10": 1.0,
-        "MRR@10": 1.0
+        "MRR@10": 1.0,
+        "num_relevant": 10
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9450897888998828,
+        "Recall@10": 1.4,
+        "MRR@10": 1.0,
+        "num_relevant": 10
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9531948543787488,
+        "Recall@10": 1.2,
+        "MRR@10": 1.0,
+        "num_relevant": 10
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9476058991795404,
+        "Recall@10": 1.4,
+        "MRR@10": 1.0,
+        "num_relevant": 10
+      }
+    },
+    "cell": {
+      "dense_only": {
+        "nDCG@10": 0.9166604408912489,
+        "Recall@10": 1.0833333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9665791231647176,
+        "Recall@10": 0.75,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.923746200905044,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.923746200905044,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 12
+      }
+    },
+    "corona": {
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 1
+      },
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 1
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.38685280723454163,
+        "Recall@10": 2.0,
+        "MRR@10": 0.2,
+        "num_relevant": 1
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.38685280723454163,
+        "Recall@10": 2.0,
+        "MRR@10": 0.2,
+        "num_relevant": 1
+      }
+    },
+    "crane": {
+      "dense_only": {
+        "nDCG@10": 1.0,
+        "Recall@10": 1.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9871451602176229,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9733360964168419,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9690945337173088,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      }
+    },
+    "falcon": {
+      "dense_only": {
+        "nDCG@10": 0.7928654229965443,
+        "Recall@10": 1.2,
+        "MRR@10": 1.0,
+        "num_relevant": 5
+      },
+      "bm25_only": {
+        "nDCG@10": 0.924133208028394,
+        "Recall@10": 0.8,
+        "MRR@10": 1.0,
+        "num_relevant": 5
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.809085818206571,
+        "Recall@10": 1.6,
+        "MRR@10": 1.0,
+        "num_relevant": 5
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8912031894106293,
+        "Recall@10": 1.4,
+        "MRR@10": 1.0,
+        "num_relevant": 5
+      }
+    },
+    "java": {
+      "dense_only": {
+        "nDCG@10": 0.68349402851663,
+        "Recall@10": 0.5714285714285714,
+        "MRR@10": 0.5,
+        "num_relevant": 7
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9182838295399681,
+        "Recall@10": 0.8571428571428571,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9138349931596398,
+        "Recall@10": 1.0,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.9180719502706124,
+        "Recall@10": 0.7142857142857143,
+        "MRR@10": 1.0,
+        "num_relevant": 7
+      }
+    },
+    "mRNA splicing spliceosome intron exon processing": {
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 4
+      },
+      "bm25_only": {
+        "nDCG@10": 0.3562071871080222,
+        "Recall@10": 0.5,
+        "MRR@10": 0.16666666666666666,
+        "num_relevant": 4
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.5044890952626143,
+        "Recall@10": 1.25,
+        "MRR@10": 0.25,
+        "num_relevant": 4
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.5536002502110464,
+        "Recall@10": 1.0,
+        "MRR@10": 0.3333333333333333,
+        "num_relevant": 4
+      }
+    },
+    "mercury": {
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 1
+      },
+      "bm25_only": {
+        "nDCG@10": 0.6309297535714574,
+        "Recall@10": 2.0,
+        "MRR@10": 0.5,
+        "num_relevant": 1
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 1.0,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 1
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 1.0,
+        "Recall@10": 2.0,
+        "MRR@10": 1.0,
+        "num_relevant": 1
+      }
+    },
+    "plate": {
+      "dense_only": {
+        "nDCG@10": 0.8714509482376813,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9128781396400242,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.9514426589871553,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.8145672023038535,
+        "Recall@10": 1.6666666666666667,
+        "MRR@10": 1.0,
+        "num_relevant": 3
+      }
+    },
+    "python": {
+      "dense_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 0
+      },
+      "bm25_only": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 0
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 0
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.0,
+        "Recall@10": 0.0,
+        "MRR@10": 0.0,
+        "num_relevant": 0
+      }
+    },
+    "renormalization group quantum field theory divergence": {
+      "dense_only": {
+        "nDCG@10": 0.7106752765782569,
+        "Recall@10": 0.4444444444444444,
+        "MRR@10": 0.5,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.8798540966214204,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.7247516925919817,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.757273021239687,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      }
+    },
+    "transformer self-attention mechanism natural language processing": {
+      "dense_only": {
+        "nDCG@10": 0.5656816783850995,
+        "Recall@10": 0.7777777777777778,
+        "MRR@10": 0.5,
+        "num_relevant": 9
+      },
+      "bm25_only": {
+        "nDCG@10": 0.9066276098484507,
+        "Recall@10": 0.3333333333333333,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_weighted_sum": {
+        "nDCG@10": 0.6824490426820656,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
+      },
+      "hybrid_rrf": {
+        "nDCG@10": 0.7139363109518626,
+        "Recall@10": 0.6666666666666666,
+        "MRR@10": 1.0,
+        "num_relevant": 9
       }
     }
   },
-  "method_summary": {
-    "bm25_only": {
-      "nDCG@10": 0.6866397403955676,
-      "Recall@10": 0.9,
-      "MRR@10": 0.679
-    },
+  "method_level": {
     "dense_only": {
-      "nDCG@10": 0.7177219329722878,
-      "Recall@10": 0.94,
-      "MRR@10": 0.7496666666666667
+      "nDCG@10": [
+        0.5109559939712154,
+        0.5998148292164573,
+        0.83605642679017,
+        1.0,
+        0.7108844341837509,
+        0.6589072019378878,
+        0.7840733739527099,
+        0.9038170135050866,
+        0.951180602283456,
+        0.6849552388941378,
+        0.871480073361127,
+        0.6921327635644973,
+        0.6817776417968212,
+        0.5723515034660515,
+        0.7094472026641538,
+        0.7408405998844328,
+        0.5606189096723732,
+        0.7778671768025934,
+        0.6624382296872457,
+        0.34682498962181657,
+        0.8754444774833748,
+        1.0,
+        0.5647020798185569,
+        0.6758840844016503,
+        0.9520896899080846,
+        0.45560514958746035,
+        0.9819729381369342,
+        0.39402485180721275,
+        0.7573774024839733,
+        0.9766997172449077,
+        0.9963488021549354,
+        0.4792350074047672,
+        0.7359748470635225,
+        0.9197207891481876,
+        0.6881195967219802,
+        0.8952678494087298,
+        0.9223260797603763,
+        0.8985171390829632,
+        0.9195341461353268,
+        0.9166604408912489,
+        1.0,
+        1.0,
+        0.7928654229965443,
+        0.68349402851663,
+        0.0,
+        0.0,
+        0.8714509482376813,
+        0.0,
+        0.7106752765782569,
+        0.5656816783850995
+      ],
+      "Recall@10": [
+        2.0,
+        0.6666666666666666,
+        0.5384615384615384,
+        0.7692307692307693,
+        1.0,
+        0.5,
+        1.2857142857142858,
+        0.9166666666666666,
+        0.6666666666666666,
+        0.7142857142857143,
+        0.6153846153846154,
+        0.8333333333333334,
+        1.0,
+        0.7142857142857143,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.75,
+        0.75,
+        0.25,
+        1.0,
+        0.6666666666666666,
+        0.5555555555555556,
+        0.4444444444444444,
+        0.8125,
+        1.0,
+        0.75,
+        1.5,
+        0.8888888888888888,
+        1.0714285714285714,
+        0.6666666666666666,
+        1.0,
+        1.2222222222222223,
+        2.0,
+        0.45454545454545453,
+        1.5714285714285714,
+        0.6666666666666666,
+        0.9166666666666666,
+        1.0,
+        1.0833333333333333,
+        2.0,
+        1.3333333333333333,
+        1.2,
+        0.5714285714285714,
+        0.0,
+        0.0,
+        1.6666666666666667,
+        0.0,
+        0.4444444444444444,
+        0.7777777777777778
+      ],
+      "MRR@10": [
+        0.3333333333333333,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.16666666666666666,
+        1.0,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        1.0,
+        0.2,
+        1.0,
+        0.25,
+        1.0,
+        1.0,
+        1.0,
+        0.2,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    "bm25_only": {
+      "nDCG@10": [
+        0.0,
+        0.6934264036172708,
+        0.9662746248661424,
+        1.0,
+        0.0,
+        0.9716883937998981,
+        0.9871451602176229,
+        0.6590018048024133,
+        0.8842221264874298,
+        0.7529716549381369,
+        0.9356199105240601,
+        0.5296052411645183,
+        0.5112209029332552,
+        0.6821597128635729,
+        0.9596539576780331,
+        0.9093183643170806,
+        0.5886694116283056,
+        0.5626966339007392,
+        0.7928654229965443,
+        0.9943962916053685,
+        0.4227898344066503,
+        0.37654115384878006,
+        0.44272256972879825,
+        0.6550972241386397,
+        0.9655176169806102,
+        1.0,
+        0.8193204570491165,
+        0.0,
+        0.6307144878079468,
+        0.9033866138464669,
+        0.5012658353418871,
+        0.38820118200817755,
+        0.5142469300368734,
+        0.6309297535714574,
+        0.4555133403129166,
+        1.0,
+        0.8772153153380493,
+        0.9398607903816497,
+        0.9450897888998828,
+        0.9665791231647176,
+        0.0,
+        0.9871451602176229,
+        0.924133208028394,
+        0.9182838295399681,
+        0.3562071871080222,
+        0.6309297535714574,
+        0.9128781396400242,
+        0.0,
+        0.8798540966214204,
+        0.9066276098484507
+      ],
+      "Recall@10": [
+        0.0,
+        0.6666666666666666,
+        0.38461538461538464,
+        0.7692307692307693,
+        0.0,
+        1.0,
+        0.7142857142857143,
+        0.25,
+        0.6666666666666666,
+        0.42857142857142855,
+        0.6923076923076923,
+        0.5,
+        0.42857142857142855,
+        0.5714285714285714,
+        1.0,
+        0.7777777777777778,
+        0.7,
+        0.4375,
+        0.75,
+        0.8333333333333334,
+        0.18181818181818182,
+        1.0,
+        0.3333333333333333,
+        0.4444444444444444,
+        0.875,
+        0.5,
+        0.5833333333333334,
+        0.0,
+        0.5555555555555556,
+        0.6428571428571429,
+        0.16666666666666666,
+        0.6666666666666666,
+        0.3333333333333333,
+        1.0,
+        0.45454545454545453,
+        0.14285714285714285,
+        0.3333333333333333,
+        0.5,
+        1.4,
+        0.75,
+        0.0,
+        1.6666666666666667,
+        0.8,
+        0.8571428571428571,
+        0.5,
+        2.0,
+        1.6666666666666667,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "MRR@10": [
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.3333333333333333,
+        0.5,
+        1.0,
+        1.0,
+        0.3333333333333333,
+        0.25,
+        1.0,
+        1.0,
+        0.16666666666666666,
+        0.3333333333333333,
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.25,
+        0.16666666666666666,
+        1.0,
+        0.5,
+        0.2,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.16666666666666666,
+        0.5,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
     },
     "hybrid_weighted_sum": {
-      "nDCG@10": 0.7625190316949754,
-      "Recall@10": 0.98,
-      "MRR@10": 0.7989999999999999
+      "nDCG@10": [
+        0.5109559939712154,
+        0.5208427674883315,
+        0.7649374646675029,
+        1.0,
+        0.7000516944651791,
+        0.935386098511369,
+        0.9060984870646369,
+        0.8531702545925937,
+        0.9322447939063515,
+        0.6899398336496163,
+        0.9598467368317016,
+        0.58688267143572,
+        0.8493744142893871,
+        0.5900296203971857,
+        0.9595460215969996,
+        0.795701323519033,
+        0.7442204150165781,
+        0.7895856383103109,
+        0.8101092681430522,
+        0.9392401853412087,
+        0.5645513700635301,
+        0.9005687248376789,
+        0.872193932344112,
+        0.4711759207898419,
+        0.9548073730884988,
+        0.5109559939712153,
+        0.959847482135493,
+        0.4933965394160924,
+        0.8400188932069889,
+        0.9772921021945298,
+        0.9538469539548478,
+        0.4387470367106921,
+        0.6968778680746041,
+        0.8503449055347546,
+        0.5847876649948583,
+        0.631251450669265,
+        0.8065735963827293,
+        0.9573668333558618,
+        0.9531948543787488,
+        0.923746200905044,
+        0.38685280723454163,
+        0.9733360964168419,
+        0.809085818206571,
+        0.9138349931596398,
+        0.5044890952626143,
+        1.0,
+        0.9514426589871553,
+        0.0,
+        0.7247516925919817,
+        0.6824490426820656
+      ],
+      "Recall@10": [
+        2.0,
+        0.8333333333333334,
+        0.46153846153846156,
+        0.7692307692307693,
+        1.0,
+        1.1,
+        1.0,
+        0.5833333333333334,
+        0.6666666666666666,
+        1.2857142857142858,
+        0.5384615384615384,
+        0.5,
+        1.1428571428571428,
+        0.8571428571428571,
+        1.25,
+        0.7777777777777778,
+        1.0,
+        0.5625,
+        0.875,
+        0.9166666666666666,
+        0.6363636363636364,
+        1.3333333333333333,
+        0.5555555555555556,
+        0.4444444444444444,
+        0.8125,
+        1.0,
+        0.6666666666666666,
+        1.5,
+        0.6666666666666666,
+        0.7142857142857143,
+        0.5,
+        0.5,
+        0.5555555555555556,
+        2.0,
+        0.2727272727272727,
+        0.42857142857142855,
+        0.3333333333333333,
+        0.75,
+        1.2,
+        1.0,
+        2.0,
+        1.6666666666666667,
+        1.6,
+        1.0,
+        1.25,
+        2.0,
+        1.6666666666666667,
+        0.0,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "MRR@10": [
+        0.3333333333333333,
+        0.25,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.25,
+        1.0,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.2,
+        1.0,
+        1.0,
+        1.0,
+        0.25,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
     },
     "hybrid_rrf": {
-      "nDCG@10": 0.7612335491663669,
-      "Recall@10": 0.98,
-      "MRR@10": 0.8375238095238094
+      "nDCG@10": [
+        1.0,
+        0.41311732856427996,
+        0.6992501537342649,
+        1.0,
+        0.6663312458715583,
+        0.9590827728308595,
+        0.7699968646023968,
+        0.9956879749912128,
+        0.8978715960024524,
+        0.8476093277417958,
+        0.9656238429414544,
+        0.6340133055126963,
+        0.8218327725870616,
+        0.5725514487494309,
+        0.8016472493003257,
+        0.8965508479224735,
+        0.9244847708763151,
+        0.7474427036679173,
+        0.8430983339078816,
+        0.9330936887693428,
+        0.5681478116967481,
+        0.6251207198387084,
+        0.8192677457040867,
+        0.5204370438439433,
+        0.9295355807601002,
+        0.5,
+        0.9340617373195641,
+        0.330639228452749,
+        0.828730156963252,
+        0.9595070041727891,
+        0.8014787115756214,
+        0.5901829092648889,
+        0.7834905968281628,
+        0.8503449055347546,
+        0.5711601337364735,
+        0.42011352412242214,
+        0.7903864795495061,
+        0.9738355749567256,
+        0.9476058991795404,
+        0.923746200905044,
+        0.38685280723454163,
+        0.9690945337173088,
+        0.8912031894106293,
+        0.9180719502706124,
+        0.5536002502110464,
+        1.0,
+        0.8145672023038535,
+        0.0,
+        0.757273021239687,
+        0.7139363109518626
+      ],
+      "Recall@10": [
+        1.0,
+        0.5,
+        0.46153846153846156,
+        0.7692307692307693,
+        0.6666666666666666,
+        0.9,
+        1.0,
+        0.5833333333333334,
+        0.6666666666666666,
+        1.0,
+        0.5384615384615384,
+        1.0,
+        1.4285714285714286,
+        0.8571428571428571,
+        1.25,
+        0.6666666666666666,
+        0.9,
+        0.75,
+        1.0,
+        0.8333333333333334,
+        0.45454545454545453,
+        1.3333333333333333,
+        0.7777777777777778,
+        0.4444444444444444,
+        0.875,
+        1.0,
+        0.6666666666666666,
+        1.5,
+        0.7777777777777778,
+        0.7142857142857143,
+        0.5,
+        0.8333333333333334,
+        0.6666666666666666,
+        2.0,
+        0.45454545454545453,
+        0.5714285714285714,
+        0.3333333333333333,
+        0.6666666666666666,
+        1.4,
+        1.0,
+        2.0,
+        1.6666666666666667,
+        1.4,
+        0.7142857142857143,
+        1.0,
+        2.0,
+        1.6666666666666667,
+        0.0,
+        0.7777777777777778,
+        0.6666666666666666
+      ],
+      "MRR@10": [
+        1.0,
+        0.3333333333333333,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        0.2,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        0.14285714285714285,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.2,
+        1.0,
+        1.0,
+        1.0,
+        0.3333333333333333,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
     }
   },
-  "query_type_breakdown": {
-    "factual": {
-      "bm25_only": 0.6899485074102879,
-      "dense_only": 0.7944526367638698,
-      "hybrid_weighted_sum": 0.7694067994672208,
-      "hybrid_rrf": 0.7431387842655951
+  "method_summary": {
+    "dense_only": {
+      "nDCG@10_mean": 0.7177219329722878,
+      "nDCG@10_std": 0.24829645647197882,
+      "Recall@10_mean": 0.8680405427905429,
+      "Recall@10_std": 0.45548164657053225,
+      "MRR@10_mean": 0.7496666666666667,
+      "MRR@10_std": 0.3403672852800176
     },
-    "conceptual": {
-      "bm25_only": 0.6679119530294708,
-      "dense_only": 0.7370501534061406,
-      "hybrid_weighted_sum": 0.7724733887369267,
-      "hybrid_rrf": 0.7605057319669276
+    "bm25_only": {
+      "nDCG@10_mean": 0.6866397403955673,
+      "nDCG@10_std": 0.30315243171609235,
+      "Recall@10_mean": 0.6185035242535243,
+      "Recall@10_std": 0.4216549057110433,
+      "MRR@10_mean": 0.6789999999999999,
+      "MRR@10_std": 0.38320012178146984
     },
-    "ambiguous": {
-      "bm25_only": 0.6285039003062067,
-      "dense_only": 0.6694960980748647,
-      "hybrid_weighted_sum": 0.7422449423259758,
-      "hybrid_rrf": 0.785114178302153
+    "hybrid_weighted_sum": {
+      "nDCG@10_mean": 0.7625190316949754,
+      "nDCG@10_std": 0.2068032503466313,
+      "Recall@10_mean": 0.9301378621378621,
+      "Recall@10_std": 0.4755008648824065,
+      "MRR@10_mean": 0.799,
+      "MRR@10_std": 0.30465663732580434
     },
-    "technical": {
-      "bm25_only": 0.7679041110119924,
-      "dense_only": 0.6218593815315587,
-      "hybrid_weighted_sum": 0.7575299338426802,
-      "hybrid_rrf": 0.7655867931808972
+    "hybrid_rrf": {
+      "nDCG@10_mean": 0.7612335491663669,
+      "nDCG@10_std": 0.21118989507670108,
+      "Recall@10_mean": 0.9126696081696082,
+      "Recall@10_std": 0.43496549044060917,
+      "MRR@10_mean": 0.8375238095238094,
+      "MRR@10_std": 0.29908346767235505
     }
   }
 }
