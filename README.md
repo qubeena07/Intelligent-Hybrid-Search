@@ -1,4 +1,4 @@
----
+
 title: Hybrid IR Wikipedia
 emoji: 🔍
 colorFrom: blue
@@ -25,12 +25,6 @@ It combines:
 - **Wikipedia ↔ Grokipedia** links: compare human-edited vs AI-generated articles side by side
 
 
-## Application UI
-
-![Hybrid IR UI](images/UI1.png)
-
-
----
 
 ## Project Structure
 
